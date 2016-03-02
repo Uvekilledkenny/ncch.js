@@ -1,0 +1,20 @@
+{
+  "name": "ncch.js",
+  "version": "1.0.0",
+  "description": "Parse NCCH from a 3DS rom and generate a ncchinfo.bin in Node.JS",
+  "main": "app.js",
+  "keywords": [
+    "3ds",
+    "ncch",
+    "ncchinfo.bin"
+  ],
+  "author": "uvekilledkenny",
+  "bin": {
+    "ncch": "./app.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0"
+  },
+  "license": "ISC"
+}
