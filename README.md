@@ -15,3 +15,5 @@ This tool uses a library (lib/ncch.js) I will use in a CIA Converter Tool in Nod
     -V, --version   output the version number
     -i, --info      shows NCCH as a list of buffers
     -g, --generate  generates a ncchinfo.bin
+    
+NB: The ncchinfo.bin contains only informations for TitleID.Main.exheader.xorpad, this is a proof of concept :)
